@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0805 Eunji-SliderTest</title>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <link rel="stylesheet" href="./css_reset.css" />
+    <link rel="stylesheet" href="./css/eunji_slider.css" />
+    <script src="./eunji_slider.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1><i class="xi-home"></i></h1>
+      <div class="gnbList">
+        <ul class="menuList">
+          <li class="menu">HTML</li>
+          <li class="menu">CSS</li>
+          <li class="menu">JavaScript</li>
+          <li class="menu">React</li>
+        </ul>
+      </div>
+      <div class="btnSide"><i class="xi-bars"></i></div>
+    </header>
+    <ul class="sliderContainer">
+      <div class="sliderImgBox">
+        <li class="sliderImg">1</li>
+        <li class="sliderImg">2</li>
+        <li class="sliderImg">3</li>
+      </div>
+      <div class="btnSlider">
+        <button><i class="xi-angle-left" data-btn="left"></i></button>
+        <button><i class="xi-angle-right" data-btn="right"></i></button>
+      </div>
+    </ul>
+    <div class="modalContainer">
+      <div class="modalBox">
+        <p>제목</p>
+        <p>내용</p>
+        <button><i class="xi-close"></i></button>
+      </div>
+    </div>
+  </body>
+</html>
