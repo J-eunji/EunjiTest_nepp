@@ -29,13 +29,8 @@ header {
     }
   }
   .btnSide {
-    display: flex;
-    justify-content: center;
-    width: 80px;
-    cursor: pointer;
     i {
-      font-size: 20px;
-      padding: 10px;
+      display: none;
     }
   }
 }
@@ -72,9 +67,21 @@ header {
           padding: 20px 0;
         }
       }
+
       .sideBarOn {
         transform: translate(0);
         transition: 0.25s;
+      }
+    }
+    .btnSide {
+      display: flex;
+      justify-content: center;
+      width: 80px;
+      cursor: pointer;
+      i {
+        display: flex;
+        font-size: 20px;
+        padding: 10px;
       }
     }
   }

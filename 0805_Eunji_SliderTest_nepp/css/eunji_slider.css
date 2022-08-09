@@ -30,15 +30,8 @@ header .gnbList .menuList .menu {
   padding: 15px;
   cursor: pointer;
 }
-header .btnSide {
-  display: flex;
-  justify-content: center;
-  width: 80px;
-  cursor: pointer;
-}
 header .btnSide i {
-  font-size: 20px;
-  padding: 10px;
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -76,6 +69,17 @@ header .btnSide i {
   header .gnbList .sideBarOn {
     transform: translate(0);
     transition: 0.25s;
+  }
+  header .btnSide {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    cursor: pointer;
+  }
+  header .btnSide i {
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
   }
 }
 .sideBarOn {
